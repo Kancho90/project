@@ -1,0 +1,5 @@
+deposit = float(input())
+lenght = int(input())
+interest = float(input())
+total_sum = deposit + lenght * ((deposit * (interest / 100)/12))
+print(total_sum)
